@@ -1,0 +1,4 @@
+Someone in the IRC channel <ircs://chat.freenode.net/nixos> (#nixos on
+freenode) was asking for help building the Rust code in `src/main.rs`, so I
+build this repository around their code as an example of what I think is a
+good way to build Rust projects on NixOS.
