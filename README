@@ -1,4 +1,12 @@
 Someone in the IRC channel <ircs://chat.freenode.net/nixos> (#nixos on
-freenode) was asking for help building the Rust code in `src/main.rs`, so I
-build this repository around their code as an example of what I think is a
-good way to build Rust projects on NixOS.
+freenode) was asking for help building some Rust code using the Rust library
+`xcb` (<https://crates.io/crates/xcb>), so I built this repository around
+their code as an example of what I think is a good way to build Rust projects
+on NixOS.
+
+Their code didn't actually work, so I then replaced it with an example from
+the `xcb` library's repository.
+
+I release this repository under the CC0 1.0 Universal public domain
+dedication, except for the file `src/main.rs`, which is copied from
+<https://github.com/rtbo/rust-xcb> and under the MIT licence.
