@@ -1,0 +1,6 @@
+[package]
+name = "xcb-demo"
+version = "0.1.0"
+
+[dependencies]
+xcb = "0.7"
